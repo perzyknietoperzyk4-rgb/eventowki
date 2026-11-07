@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "eventowki",
+  "version": "${version}",
+  "name": "Eventowki",
+  "description": "Trzymasz klawisz (domyslnie R) i mod szybko uzywa eventowek na graczu, na ktorego patrzysz.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.eventowki.EventowkiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
